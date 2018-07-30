@@ -5,10 +5,22 @@ queue()
 function makeGraphs(error, ChileData) {
     var ndx = crossfilter(ChileData);
     
+    show_gender_selector(ndx);    
     show_vote(ndx);
         
     dc.renderAll();
+    
 }
+
+function show_gender_selector(ndx) {
+    var dim = ndx.dimension(dc.pluck('sex'));
+    var group = dim.group();
+    
+    dc.selectMenu("#gender_selector")
+        .dimension(dim)
+        .group(group);
+}
+
 function show_vote(ndx) {
     var dim = ndx.dimension(dc.pluck('vote'));
     var group = dim.group();
