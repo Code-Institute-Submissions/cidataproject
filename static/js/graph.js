@@ -7,6 +7,8 @@ function makeGraphs(error, ChileData) {
     
     show_gender_selector(ndx);    
     show_vote(ndx);
+    show_income(ndx);
+
         
     dc.renderAll();
     
@@ -36,5 +38,23 @@ function show_vote(ndx) {
         .xUnits(dc.units.ordinal)
         .elasticY(true)
         .xAxisLabel("Vote")
+        .yAxis().ticks(20);
+}
+
+function show_income(ndx) {
+    var dim = ndx.dimension(dc.pluck('income'));
+    var group = dim.group();
+
+    dc.barChart('#income')
+        .width(400)
+        .height(500)
+        .margins({top: 10, right: 50, bottom: 30, left: 50})
+        .dimension(dim)
+        .group(group)
+        .transitionDuration(300)
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .elasticY(true)
+        .xAxisLabel('Income')
         .yAxis().ticks(20);
 }
