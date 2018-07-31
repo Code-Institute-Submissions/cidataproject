@@ -8,7 +8,7 @@ function makeGraphs(error, ChileData) {
     show_gender_selector(ndx);    
     show_vote(ndx);
     show_income(ndx);
-
+   // show_income_to_vote_correlation(ndx);
         
     dc.renderAll();
     
@@ -58,3 +58,37 @@ function show_income(ndx) {
         .xAxisLabel('Income')
         .yAxis().ticks(20);
 }
+
+/** function show_income_to_vote_correlation(ndx) {
+    var genderColors = d3.scale.ordinal()
+        .domain(["Female", "Male"])
+        .range(["pink", "blue"]);
+
+    var incomeDim = ndx.dimension(dc.pluck("income"));
+    var voteDim = ndx.dimension(dc.pluck("vote"));
+
+    var incomeDim = voteDim.group();
+
+    var minIncome = eDim.bottom(1)[0].income;
+    var maxIncome = eDim.top(1)[0].income;
+
+    dc.scatterPlot("#income-vote")
+        .width(800)
+        .height(400)
+        .x(d3.scale.linear().domain([minIncome,maxIncome]))
+        .brushOn(false)
+        .symbolSize(8)
+        .clipPadding(10)
+        .yAxisLabel("Income")
+        .xAxisLabel("Vote")
+        .title(function (d) {
+            return d.key[2] + " earned " + d.key[1];
+        })
+        .colorAccessor(function (d) {
+            return d.key[3];
+        })
+        .colors(genderColors)
+        .dimension(incomeDim)
+        .group(voteDim)
+        .margins({top: 10, right: 50, bottom: 75, left: 75});
+}**/
