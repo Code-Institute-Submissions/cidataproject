@@ -9,7 +9,7 @@ function makeGraphs(error, ChileData) {
     show_vote(ndx);
     show_income(ndx);
     show_region(ndx);
-    // show_statusquo(ndx);
+//    show_statusquo(ndx);
         
     dc.renderAll();
     
@@ -77,6 +77,7 @@ function show_region(ndx) {
         .xAxisLabel("Region")
         .yAxis().ticks(20);
 }
+
 function show_statusquo(ndx) {
     var dim = ndx.dimension(dc.pluck('statusquo'));
     var group = dim.group();
@@ -91,6 +92,6 @@ function show_statusquo(ndx) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .elasticY(true)
-        .xAxisLabel("Support level of statusquo")
+        .xAxisLabel("Support of statusquo")
         .yAxis().ticks(20);
 }
