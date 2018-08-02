@@ -30,7 +30,7 @@ function show_vote(ndx) {
     var group = dim.group();
 
     dc.barChart("#vote")
-        .width(400)
+        .width(700)
         .height(500)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
