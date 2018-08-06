@@ -41,8 +41,8 @@ function show_vote(ndx) {
     var group = dim.group();
 
     dc.barChart("#vote")
-        .width(700)
-        .height(500)
+        .width(800)
+        .height(300)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
         .group(group)
@@ -59,8 +59,8 @@ function show_income(ndx) {
     var group = dim.group();
 
     dc.barChart('#income')
-        .width(300)
-        .height(400)
+        .width(380)
+        .height(300)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
         .group(group)
@@ -68,7 +68,7 @@ function show_income(ndx) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .elasticY(true)
-        .xAxisLabel('Income')
+        .xAxisLabel('Monthly income in CLP')
         .yAxis().ticks(20);
 }
 
@@ -77,8 +77,8 @@ function show_gender(ndx) {
     var group = dim.group();
 
     dc.barChart('#gender')
-        .width(200)
-        .height(400)
+        .width(150)
+        .height(300)
         .margins({ top: 20, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
         .group(group)
@@ -96,7 +96,7 @@ function show_region(ndx) {
 
     dc.barChart("#region")
         .width(250)
-        .height(400)
+        .height(300)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
         .group(group)
@@ -114,7 +114,7 @@ function show_education(ndx) {
 
     dc.barChart("#education")
         .width(250)
-        .height(400)
+        .height(300)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
         .group(group)
