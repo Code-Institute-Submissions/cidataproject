@@ -124,4 +124,4 @@ function show_education(ndx) {
         .elasticY(true)
         .xAxisLabel("Education")
         .yAxis().ticks(20);
-}
+};
