@@ -1,5 +1,5 @@
 queue()
-    .defer(d3.csv, "data/easy.csv")
+    .defer(d3.csv, "data/Chile.csv")
     .await(makeGraphs);
 
 function makeGraphs(error, ChileData) {
@@ -12,6 +12,7 @@ function makeGraphs(error, ChileData) {
     show_income(ndx);
     show_region(ndx);
     show_education(ndx);
+    show_age(ndx);
 
     dc.renderAll();
 
@@ -74,13 +75,13 @@ function show_income(ndx) {
 function show_gender(ndx) {
     var dim = ndx.dimension(dc.pluck('sex'));
     var group = dim.group();
-        dc.pieChart('#gender')
-            .height(330)
-            .radius(90)
-            .transitionDuration(300)
-            .dimension(dim)
-            .group(group);
-    }
+    dc.pieChart('#gender')
+        .height(330)
+        .radius(90)
+        .transitionDuration(300)
+        .dimension(dim)
+        .group(group);
+}
 
 function show_region(ndx) {
     var dim = ndx.dimension(dc.pluck('region'));
@@ -116,4 +117,24 @@ function show_education(ndx) {
         .elasticY(true)
         .xAxisLabel("Education")
         .yAxis().ticks(20);
+}
+
+function show_age(ndx) {
+    var dim = ndx.dimension(dc.pluck('age'));
+    var group = dim.group();
+
+    dc.barChart("#age")
+        .width(800)
+        .height(200)
+        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+        .dimension(dim)
+        .group(group)
+        .transitionDuration(300)
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .yAxisLabel("Count")
+        .xAxisLabel("Age")
+        .elasticY(true)
+        .elasticX(true);
+
 }
