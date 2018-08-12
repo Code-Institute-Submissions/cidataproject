@@ -87,36 +87,28 @@ function show_region(ndx) {
     var dim = ndx.dimension(dc.pluck('region'));
     var group = dim.group();
 
-    dc.barChart("#region")
-        .width(250)
-        .height(300)
-        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+    dc.rowChart("#region")
+        .width(300)
+        .height(250)
+        .margins({ top: 30, right: 50, bottom: 20, left: 50 })
         .dimension(dim)
         .group(group)
+        .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
         .transitionDuration(300)
-        .x(d3.scale.ordinal())
-        .xUnits(dc.units.ordinal)
-        .elasticY(true)
-        .xAxisLabel("Region")
-        .yAxis().ticks(20);
+        .elasticX(true)
 }
 
 function show_education(ndx) {
     var dim = ndx.dimension(dc.pluck('education'));
     var group = dim.group();
 
-    dc.barChart("#education")
-        .width(250)
-        .height(300)
-        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
-        .dimension(dim)
-        .group(group)
+    dc.pieChart('#education')
+        .height(330)
+        .radius(90)
         .transitionDuration(300)
-        .x(d3.scale.ordinal())
-        .xUnits(dc.units.ordinal)
-        .elasticY(true)
-        .xAxisLabel("Education")
-        .yAxis().ticks(20);
+        .dimension(dim)
+        .group(group);
+        
 }
 
 function show_age(ndx) {
@@ -124,7 +116,7 @@ function show_age(ndx) {
     var group = dim.group();
 
     dc.barChart("#age")
-        .width(800)
+        .width(1000)
         .height(200)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
