@@ -1,0 +1,19 @@
+.dc-chart g.row text {
+    fill: white !important;
+}
+
+.dc-chart .box text, .dc-chart g.axis text {
+    color: #fafafa !important;
+}
+
+.svg text {
+    color: #fafafa !important;
+}
+
+#div {
+    color: #fafafa !important;
+}
+
+axis text {
+    color: #fafafa !important;
+}
