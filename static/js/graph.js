@@ -48,8 +48,8 @@ function show_income(ndx) {
     var group = dim.group();
 
     dc.barChart('#income')
-        .width(380)
-        .height(300)
+        .width(350)
+        .height(250)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
         .group(group)
