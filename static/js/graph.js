@@ -49,10 +49,11 @@ function show_income(ndx) {
 
     dc.barChart('#income')
         .width(350)
-        .height(250)
+        .height(300)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
         .group(group)
+        .ordinalColors(['#7AC0F0'])
         .transitionDuration(300)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
