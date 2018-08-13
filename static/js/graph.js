@@ -35,6 +35,7 @@ function show_vote(ndx) {
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
         .group(group)
+        .ordinalColors(['#7AC0F0'])
         .transitionDuration(300)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
