@@ -111,6 +111,7 @@ function show_age(ndx) {
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
         .group(group)
+        .ordinalColors(['#9393C4'])
         .transitionDuration(300)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
