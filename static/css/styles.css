@@ -1,19 +1,23 @@
-.dc-chart g.row text {
-    fill: white !important;
-}
 
 .dc-chart .box text, .dc-chart g.axis text {
-    fill: white !important;
+    fill: white;
 }
 
 .svg text {
-    fill: white !important;
+    fill: white;
 }
 
-#div {
-    fill: white !important;
+.x-axis-label {
+    fill: white;
 }
 
-axis text {
-    fill: white !important;
+.y-axis-label {
+    fill: white;
+}
+
+.dc-chart .axis line {
+stroke: white;
+}
+.dc-chart .axis line {
+stroke: white;
 }
