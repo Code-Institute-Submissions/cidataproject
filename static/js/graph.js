@@ -99,7 +99,7 @@ function show_education(ndx) {
         .transitionDuration(300)
         .dimension(dim)
         .group(group);
-        
+
 }
 
 function show_age(ndx) {

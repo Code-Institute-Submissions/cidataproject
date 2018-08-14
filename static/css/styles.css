@@ -1,4 +1,5 @@
-.dc-chart .box text, .dc-chart g.axis text {
+.dc-chart .box text,
+.dc-chart g.axis text {
     fill: white;
 }
 
@@ -15,8 +16,9 @@
 }
 
 .dc-chart .axis line {
-stroke: white;
+    stroke: white;
 }
+
 .dc-chart .axis line {
-stroke: white;
+    stroke: white;
 }
