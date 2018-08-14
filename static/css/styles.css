@@ -3,17 +3,17 @@
 }
 
 .dc-chart .box text, .dc-chart g.axis text {
-    color: #fafafa !important;
+    fill: white !important;
 }
 
 .svg text {
-    color: #fafafa !important;
+    fill: white !important;
 }
 
 #div {
-    color: #fafafa !important;
+    fill: white !important;
 }
 
 axis text {
-    color: #fafafa !important;
+    fill: white !important;
 }
