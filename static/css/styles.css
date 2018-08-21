@@ -1,3 +1,5 @@
+/*-----------------DC Charts*/
+
 .dc-chart .box text,
 .dc-chart g.axis text {
     fill: white;
@@ -21,4 +23,11 @@
 
 .dc-chart .axis line {
     stroke: white;
+}
+
+/*-----------------Icons*/
+
+.fa-check-square-o:before {
+  content: "\f046";
+  color: #428CA2;
 }
