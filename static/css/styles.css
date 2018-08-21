@@ -3,13 +3,23 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-/*-----------------Title*/
-h2 {
+/*-----------------Titles*/
+h1 {
     text-shadow: 7px 6px 0 rgba(0,0,0,0.3);
     font-family: Oxygen;
-    font-weight: 700;
+    color: #FFFFFF;
+    font-weight: 800;
 }
 
+.text-info, .text-info:hover {
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: Oxygen;
+    color: #5BC0FB;
+    font-weight: 500;
+}
 
 /*-----------------Icons*/
 
