@@ -1,3 +1,22 @@
+/*-----------------Body*/
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*-----------------Title*/
+h2 {
+    text-shadow: 7px 6px 0 rgba(0,0,0,0.3);
+    font-family: Oxygen;
+}
+
+
+/*-----------------Icons*/
+
+.fa-check-square-o:before {
+  content: "\f046";
+  color: #428CA2;
+}
+
 /*-----------------DC Charts*/
 
 .dc-chart .box text,
@@ -7,13 +26,17 @@
 
 .svg text {
     fill: white;
+    font-family: 'Oxygen', sans-serif;
+
 }
 
 .x-axis-label {
+    font-family: 'Oxygen', sans-serif;
     fill: white;
 }
 
 .y-axis-label {
+    font-family: 'Oxygen', sans-serif;
     fill: white;
 }
 
@@ -23,11 +46,4 @@
 
 .dc-chart .axis line {
     stroke: white;
-}
-
-/*-----------------Icons*/
-
-.fa-check-square-o:before {
-  content: "\f046";
-  color: #428CA2;
 }
