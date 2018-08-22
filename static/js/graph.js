@@ -12,7 +12,7 @@ function makeGraphs(error, ChileData) {
     show_region(ndx);
     show_education(ndx);
     show_age(ndx);
-
+    
     dc.renderAll();
 
 }
