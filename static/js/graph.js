@@ -49,7 +49,7 @@ function show_income(ndx) {
     var group = dim.group();
 
     dc.barChart('#income')
-        .width(350)
+        .width(410)
         .height(300)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .dimension(dim)
@@ -67,7 +67,7 @@ function show_gender(ndx) {
     var dim = ndx.dimension(dc.pluck('sex'));
     var group = dim.group();
     dc.pieChart('#gender')
-        .height(330)
+        .height(300)
         .radius(90)
         .transitionDuration(300)
         .dimension(dim)
@@ -94,7 +94,7 @@ function show_education(ndx) {
     var group = dim.group();
 
     dc.pieChart('#education')
-        .height(330)
+        .height(300)
         .radius(90)
         .transitionDuration(300)
         .dimension(dim)
