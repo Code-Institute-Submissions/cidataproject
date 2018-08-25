@@ -41,6 +41,7 @@ function show_vote(ndx) {
         .xUnits(dc.units.ordinal)
         .elasticY(true)
         .xAxisLabel('Vote')
+        .yAxisLabel('Count')
         .yAxis().ticks(20);
 }
 
@@ -60,6 +61,7 @@ function show_income(ndx) {
         .xUnits(dc.units.ordinal)
         .elasticY(true)
         .xAxisLabel('Monthly income in CLP')
+        .yAxisLabel('Count')
         .yAxis().ticks(20);
 }
 
