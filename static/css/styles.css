@@ -74,9 +74,9 @@ p.subtitle {
 }
 
 #income g.x.axis text {
-   transform: rotate(60deg);
+   transform: rotate(40deg);
    fill: #fff;
-   font-weight: bold;
+   margin-bottom: 10em;
 }
 
 dc-chart .axis line, .dc-chart .axis path {
