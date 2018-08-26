@@ -32,7 +32,7 @@ function show_vote(ndx) {
     dc.barChart('#vote')
         .width(600)
         .height(250)
-        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+        .margins({ top: 10, right: 50, bottom: 40, left: 50 })
         .dimension(dim)
         .group(group)
         .ordinalColors(['#7AC0F0'])
@@ -42,6 +42,7 @@ function show_vote(ndx) {
         .elasticY(true)
         .xAxisLabel('Vote')
         .yAxisLabel('Count')
+        .renderHorizontalGridLines(true)
         .yAxis().ticks(20);
 }
 
@@ -52,10 +53,10 @@ function show_income(ndx) {
     dc.barChart('#income')
         .width(410)
         .height(300)
-        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+        .margins({ top: 10, right: 50, bottom: 40, left: 50 })
         .dimension(dim)
         .group(group)
-        .ordinalColors(['#7AC0F0'])
+        .linearColors(['#CACAE3', '#6BAED6', '#9ecae1', '#1F77B4', '#7AC0F0'])
         .transitionDuration(300)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
@@ -88,7 +89,7 @@ function show_region(ndx) {
         .group(group)
         .ordinalColors(['#CACAE3', '#6BAED6', '#9ecae1', '#1F77B4', '#7AC0F0'])
         .transitionDuration(300)
-        .elasticX(true)
+        .elasticX(true);
 }
 
 function show_education(ndx) {
@@ -111,7 +112,7 @@ function show_age(ndx) {
     dc.barChart('#age')
         .width(1000)
         .height(200)
-        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+        .margins({ top: 10, right: 50, bottom: 40, left: 50 })
         .dimension(dim)
         .group(group)
         .ordinalColors(['#9393C4'])

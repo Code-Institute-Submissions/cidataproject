@@ -47,19 +47,22 @@ p.subtitle {
 }
 
 .svg text {
-    fill: white;
     font-family: 'Oxygen', sans-serif;
-
+    fill: white;
 }
 
 .x-axis-label {
     font-family: 'Oxygen', sans-serif;
-    fill: white;
+    text-anchor: start !important;
+    fill: #fff;
+    font-weight: bold;
+    padding-top: 10em;
 }
 
 .y-axis-label {
     font-family: 'Oxygen', sans-serif;
     fill: white;
+    font-weight: bold;
 }
 
 .dc-chart .axis line {
@@ -68,4 +71,14 @@ p.subtitle {
 
 .dc-chart .axis line {
     stroke: white;
+}
+
+#income g.x.axis text {
+   transform: rotate(60deg);
+   fill: #fff;
+   font-weight: bold;
+}
+
+dc-chart .axis line, .dc-chart .axis path {
+  stroke: #fff;
 }
