@@ -110,8 +110,8 @@ function show_age(ndx) {
     var group = dim.group();
 
     dc.barChart('#age')
-        .width(1000)
-        .height(200)
+        .width(600)
+        .height(300)
         .margins({ top: 10, right: 50, bottom: 40, left: 50 })
         .dimension(dim)
         .group(group)
