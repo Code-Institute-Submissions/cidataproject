@@ -36,7 +36,7 @@ function show_vote(ndx) {
         .dimension(dim)
         .group(group)
         .ordinalColors(['#7AC0F0'])
-        .transitionDuration(300)
+        .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .elasticY(true)
@@ -57,7 +57,7 @@ function show_income(ndx) {
         .dimension(dim)
         .group(group)
         .linearColors(['#CACAE3', '#6BAED6', '#9ecae1', '#1F77B4', '#7AC0F0'])
-        .transitionDuration(300)
+        .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .elasticY(true)
@@ -72,7 +72,7 @@ function show_gender(ndx) {
     dc.pieChart('#gender')
         .height(300)
         .radius(90)
-        .transitionDuration(300)
+        .transitionDuration(500)
         .dimension(dim)
         .group(group);
 }
@@ -88,7 +88,7 @@ function show_region(ndx) {
         .dimension(dim)
         .group(group)
         .ordinalColors(['#CACAE3', '#6BAED6', '#9ecae1', '#1F77B4', '#7AC0F0'])
-        .transitionDuration(300)
+        .transitionDuration(500)
         .elasticX(true);
 }
 
@@ -99,7 +99,7 @@ function show_education(ndx) {
     dc.pieChart('#education')
         .height(300)
         .radius(90)
-        .transitionDuration(300)
+        .transitionDuration(500)
         .dimension(dim)
         .group(group);
 
@@ -116,7 +116,7 @@ function show_age(ndx) {
         .dimension(dim)
         .group(group)
         .ordinalColors(['#9393C4'])
-        .transitionDuration(300)
+        .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .yAxisLabel('Count')
