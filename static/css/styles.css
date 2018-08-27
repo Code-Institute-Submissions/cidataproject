@@ -23,15 +23,6 @@ h3 {
     color: #5BC0FB;
 }
 
-p.subtitle {
-    font-family: Oxygen;
-    color: #5BC0FB;
-    margin-bottom: 20px;
-    font-size: 1.3em;
-    font-weight: 300;
-    line-height: 1.4;
-}
-
 /*-----------------Icons*/
 
 .fa-check-square-o:before {
@@ -91,4 +82,51 @@ a.quote {
     text-decoration: none;
     margin-left: 6px;
     font-size: 0.8em;
+}
+
+/*---------------Media queries*/
+
+@media (max-width: 767px) {
+    p.subtitle {
+        font-family: Oxygen;
+        color: #5BC0FB;
+        margin-bottom: 20px;
+        font-size: 1.4em;
+        font-weight: 300;
+        line-height: 1.4;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+        p.subtitle {
+        font-family: Oxygen;
+        color: #5BC0FB;
+        margin-bottom: 20px;
+        font-size: 1.7em;
+        font-weight: 300;
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+        p.subtitle {
+        font-family: Oxygen;
+        color: #5BC0FB;
+        margin-bottom: 20px;
+        font-size: 2em;
+        font-weight: 300;
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 1200px) {
+    p.subtitle {
+        font-family: Oxygen;
+        color: #5BC0FB;
+        margin-bottom: 20px;
+        font-size: 2em;
+        font-weight: 300;
+        line-height: 1.4;
+    }
 }
