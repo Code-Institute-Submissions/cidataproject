@@ -74,11 +74,21 @@ p.subtitle {
 }
 
 #income g.x.axis text {
-   transform: rotate(40deg);
-   fill: #fff;
-   margin-bottom: 10em;
+    transform: rotate(40deg);
+    fill: #fff;
+    margin-bottom: 10em;
 }
 
-dc-chart .axis line, .dc-chart .axis path {
-  stroke: #fff;
+dc-chart .axis line,
+.dc-chart .axis path {
+    stroke: #fff;
+}
+
+/*---------------Citations*/
+
+a.quote {
+    color: #A3B3B9;
+    text-decoration: none;
+    margin-left: 6px;
+    font-size: 0.8em;
 }
