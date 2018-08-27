@@ -31,7 +31,7 @@ function show_vote(ndx) {
 
     dc.barChart('#vote')
         .width(600)
-        .height(250)
+        .height(300)
         .margins({ top: 10, right: 50, bottom: 40, left: 50 })
         .dimension(dim)
         .group(group)
@@ -39,6 +39,7 @@ function show_vote(ndx) {
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
+        .ordering(function(d) { return -d.value })
         .elasticY(true)
         .xAxisLabel('Vote')
         .yAxisLabel('Count')
