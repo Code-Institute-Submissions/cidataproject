@@ -74,7 +74,7 @@ p.subtitle {
 }
 
 #income g.x.axis text {
-    transform: rotate(40deg);
+    transform: rotate(25deg);
     fill: #fff;
     margin-bottom: 10em;
 }
