@@ -21,10 +21,12 @@ This webpage is fully responsive, in spite of the general difficulty of responsi
 The colour palet and font chosen are intended to mark solemnity, due to the nature of the Referendum and the historical importance of this moment.
 
 
-## Technologies
+## Technologies utilized
 
-- The data is presented in charts made with the library DC.JS. 
+- The data is presented in charts made with the Javascript library DC.JS and crossfilter, which constructs the charts and allows user examination of data through interaction within the charts
+- d3.js, a Javascript library that manipulates the DOM when interacting with data
 - HMTL language for writting of the webpage layout
 - CSS was used to customize the webpage design and functionalities
+- Slate Bootstwatch was used as a Theme https://bootswatch.com/3/slate
 - Bootstrap Framework was used to organize the webpage and uniform the layout throughout. Also, the spacing utils section has been creaated from the information in https://getbootstrap.com/docs/4.1/utilities/spacing/
 - Media Queries were used to control the responsive adjustments for smallest screens of the subtitles and paragraphs.
