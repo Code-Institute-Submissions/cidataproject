@@ -11,15 +11,20 @@ In this project, we will generate a visual representation of the Intentions of V
 The dataset was obtained from Vincent Arel Bundock, France. Retrieved from https://vincentarelbundock.github.io/Rdatasets/datasets.html. 
 
 
-## The Dashboard
+## Data Visualization Dashboard Features
 
-In this webpage, we can explore demographic trends of the 1988 Chilean Referendum Voting intentions. 
+In this webpage, we can explore demographic trends of the 1988 Chilean Referendum Voting intentions. On click, the bars of the charts modify each other to generate a better understanding of who and why people had certain voting intentions. These trends can be examined by Gender, Region of the country, Education level, Income and Age. 
+Discussion on possible answers to the reasoning behind the voting intentions are detailed after the graphs. The sources for this context can be found at the end of the page, where bibliography is adequately linked and cited.
+
+This webpage is fully responsive, in spite of the general difficulty of responsiveness in DC charts. This problem was resolved adding a scroll through personalized CSS.
+
+The colour palet and font chosen are intended to mark solemnity, due to the nature of the Referendum and the historical importance of this moment.
 
 
 ## Technologies
 
 - The data is presented in charts made with the library DC.JS. 
 - HMTL language for writting of the webpage layout
-- CSS was used to customize the webpage design
+- CSS was used to customize the webpage design and functionalities
 - Bootstrap Framework was used to organize the webpage and uniform the layout throughout. Also, the spacing utils section has been creaated from the information in https://getbootstrap.com/docs/4.1/utilities/spacing/
 - Media Queries were used to control the responsive adjustments for smallest screens of the subtitles and paragraphs.
