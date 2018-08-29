@@ -23,6 +23,13 @@ h3 {
     color: #5BC0FB;
 }
 
+h5 {
+    text-shadow: 7px 6px 0 rgba(0, 0, 0, 0.3);
+    font-family: Oxygen;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
 /*-----------------Icons*/
 
 .fa-check-square-o:before {
@@ -91,7 +98,7 @@ a.quote {
         font-family: Oxygen;
         color: #5BC0FB;
         margin-bottom: 20px;
-        font-size: 1.4em;
+        font-size: 1.2em;
         font-weight: 300;
         line-height: 1.4;
     }
