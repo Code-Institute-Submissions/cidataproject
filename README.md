@@ -30,3 +30,6 @@ The colour palet and font chosen are intended to mark solemnity, due to the natu
 - Slate Bootstwatch was used as a Theme https://bootswatch.com/3/slate
 - Bootstrap Framework was used to organize the webpage and uniform the layout throughout. Also, the spacing utils section has been creaated from the information in https://getbootstrap.com/docs/4.1/utilities/spacing/
 - Media Queries were used to control the responsive adjustments for smallest screens of the subtitles and paragraphs.
+
+
+## Deployment
