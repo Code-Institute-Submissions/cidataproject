@@ -99,12 +99,12 @@ a.quote {
         font-family: Oxygen;
         color: #5BC0FB;
         margin-bottom: 20px;
-        font-size: 1.4em;
+        font-size: 1.2em;
         font-weight: 300;
-        line-height: 1.4;
+        line-height: 1.2;
 
     }
-
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
         p.subtitle {
