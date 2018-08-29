@@ -2,6 +2,34 @@
 
 body {
     font-family: 'Oxygen', sans-serif;
+    color: #D4E6F1;
+}
+
+p.lead {
+    color: #D4E6F1;
+    font-size: 15px;
+}
+
+.text-muted {
+    color: #A9CCE3;
+}
+
+/*------------------Navbar*/
+
+a.li.navbar-nav> {
+  color: #D4E6F1;
+}
+
+navbar-default .navbar-nav>li>a .hover {
+  color: #C1CCD4;
+  
+}
+
+/*------------------Main Title*/
+
+.text-info,
+.text-info:hover {
+    color: #C1CCD4;
 }
 
 /*-----------------Titles*/
@@ -13,30 +41,36 @@ h1 {
     font-weight: 800;
 }
 
-.text-info,
-.text-info:hover {
-    color: #FFFFFF;
-}
 
 h3 {
     font-family: Oxygen;
-    color: #5BC0FB;
+    color: #A9CCE3;
 }
 
 h5 {
     text-shadow: 7px 6px 0 rgba(0, 0, 0, 0.3);
     font-family: Oxygen;
-    color: #FFFFFF;
+    color: #C1CCD4;
     font-weight: 400;
     line-height: 0;
 }
 
-/*-----------------Icons*/
+/*-----------------Links*/
 
-.fa-check-square-o:before {
-    content: "\f046";
-    color: #428CA2;
+a:hover {
+    color: #8696A7;
+    text-decoration: none;
 }
+
+.li a:hover {
+    color: #8696A7;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
 
 /*-----------------DC Charts*/
 
@@ -102,32 +136,31 @@ a.quote {
 @media (max-width: 767px) {
     p.subtitle {
         font-family: Oxygen;
-        color: #5BC0FB;
+        color: #6089AD;
         margin-bottom: 20px;
         font-size: 1.2em;
         font-weight: 300;
-        line-height: 1.2;
-
+        line-height: 1.4;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-        p.subtitle {
+    p.subtitle {
         font-family: Oxygen;
-        color: #5BC0FB;
+        color: #6089AD;
         margin-bottom: 20px;
-        font-size: 1.7em;
+        font-size: 1.2em;
         font-weight: 300;
         line-height: 1.4;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-        p.subtitle {
+    p.subtitle {
         font-family: Oxygen;
-        color: #5BC0FB;
+        color: #6089AD;
         margin-bottom: 20px;
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: 300;
         line-height: 1.4;
     }
@@ -136,7 +169,7 @@ a.quote {
 @media (min-width: 1200px) {
     p.subtitle {
         font-family: Oxygen;
-        color: #5BC0FB;
+        color: #6089AD;
         margin-bottom: 20px;
         font-size: 2em;
         font-weight: 300;

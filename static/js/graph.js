@@ -35,7 +35,7 @@ function show_vote(ndx) {
         .margins({ top: 10, right: 50, bottom: 40, left: 50 })
         .dimension(dim)
         .group(group)
-        .ordinalColors(['#9393C4'])
+        .ordinalColors(['#6399D2'])
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
@@ -57,7 +57,7 @@ function show_income(ndx) {
         .margins({ top: 10, right: 50, bottom: 40, left: 50 })
         .dimension(dim)
         .group(group)
-        .colors(['#CACAE3', '#6BAED6', '#9ecae1', '#1F77B4', '#7AC0F0'])
+        .ordinalColors(['#4984C2', '#6BAED6', '#9ecae1', '#1F77B4', '#7AC0F0'])
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
@@ -75,6 +75,7 @@ function show_gender(ndx) {
         .height(300)
         .radius(90)
         .transitionDuration(500)
+        .ordinalColors(['#91B3D7', '#356495'])
         .dimension(dim)
         .group(group);
 }
@@ -89,7 +90,7 @@ function show_region(ndx) {
         .margins({ top: 30, right: 50, bottom: 20, left: 50 })
         .dimension(dim)
         .group(group)
-        .ordinalColors(['#CACAE3', '#6BAED6', '#9ecae1', '#1F77B4', '#7AC0F0'])
+        .ordinalColors(['#D4E6F1', '#6BAED6', '#9ecae1', '#91B3D7', '#7AC0F0'])
         .transitionDuration(500)
         .elasticX(true);
 }
@@ -102,6 +103,7 @@ function show_education(ndx) {
         .height(300)
         .radius(90)
         .transitionDuration(500)
+        .ordinalColors(['#91B3D7', '#45678B', '#284A6E'])
         .dimension(dim)
         .group(group);
 
