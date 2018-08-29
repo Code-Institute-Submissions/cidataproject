@@ -16,7 +16,7 @@ p.lead {
 
 /*------------------Navbar*/
 
-a.li.navbar-nav> {
+a.li.navbar-nav {
   color: #D4E6F1;
 }
 
@@ -27,8 +27,7 @@ navbar-default .navbar-nav>li>a .hover {
 
 /*------------------Main Title*/
 
-.text-info,
-.text-info:hover {
+.text-info {
     color: #C1CCD4;
 }
 
