@@ -24,12 +24,14 @@ navbar-default .navbar-nav>li>a .hover {
   color: #C1CCD4;
 }
 
-
-
 /*------------------------------------------------------------------Main Title*/    
 
 .text-info {
     color: #C1CCD4;
+}
+
+.text-info:hover {
+  color: #6E899D;
 }
 
 /*----------------------------------------------------------------------Titles*/
