@@ -35,12 +35,12 @@
                 </div>
                 <div class='collapse navbar-collapse' id='myNavbar'>
                     <ul class='nav navbar-nav'>
-                        <li><a href='#vote'>Vote</a></li>
-                        <li><a href='#gender'>Gender</a></li>
-                        <li><a href='#region'>Region</a></li>
-                        <li><a href='#education'>Education</a></li>
-                        <li><a href='#income'>Income</a></li>
-                        <li><a href='#age'>Age</a></li>
+                        <li><a href='#votenav'>Vote</a></li>
+                        <li><a href='#gendernav'>Gender</a></li>
+                        <li><a href='#regionnav'>Region</a></li>
+                        <li><a href='#educationnav'>Education</a></li>
+                        <li><a href='#incomenav'>Income</a></li>
+                        <li><a href='#agenav'>Age</a></li>
                     </ul>
                 </div>
             </div>
@@ -84,7 +84,7 @@
                     </div>
                 </div>
                 <div class='row mt-5 mb-5'>
-                    <div class='col-md-8 col-md-offset-2'>
+                    <div id='votenav' class='col-md-8 col-md-offset-2'>
                         <p class='lead' align='right'>Data obtained from the National survey conducted in April and May of 1988 by FLACSO
 
                             <small class='text-muted'>The Latin American Faculty 
@@ -122,7 +122,7 @@
     <section>
         <div class='container-fluid mt-5 mb-5'>
             <div class='row'>
-                <div class='col-xs-8 col-xs-offset-2'>
+                <div id='gendernav' class='col-xs-8 col-xs-offset-2'>
                     <p class='lead'>Select the Vote you wish to study to modify the graphs below
 
                     </p>
@@ -136,7 +136,7 @@
     <!----------------------------------------------------Gender and Region Charts-->
     <section>
         <div class='mt-5'>
-            <div class='col-md-8 col-md-offset-1'>
+            <div id='regionnav' class='col-md-8 col-md-offset-1'>
                 <h3>Gender - Region</h3>
             </div>
             <div class='container-fluid mt-5 mb-5'>
@@ -168,8 +168,8 @@
 
     <!------------------------------------------------Education and Income Charts-->
     <section>
-        <div>
-            <div class='col-md-8 col-md-offset-1'>
+        <div id='educationnav'>
+            <div id='incomenav' class='col-md-8 col-md-offset-1'>
                 <h3>Education - Income</h3>
             </div>
             <div class='container-fluid mt-5 mb-5'>
@@ -189,7 +189,7 @@
     <section class='mt-5 mb-5'>
         <div class='container-fluid'>
             <div class='row'>
-                <div class='col-md-8 col-md-offset-2'>
+                <div id='agenav' class='col-md-8 col-md-offset-2'>
                     <p class='lead'>A correlation between a Postsecondary Education and a 'No' vote can be observed.
                         <small class='text-muted'>Universities, 
                     at the same time, are highly concentrated in the capital.
