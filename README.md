@@ -1,4 +1,4 @@
-# CIDataProject
+# Milestone Project: Experience Centered Design
 
 ## Introduction
 
