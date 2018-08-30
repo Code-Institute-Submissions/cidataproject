@@ -16,7 +16,7 @@ The dataset was obtained from Vincent Arel Bundock, France. Retrieved from https
 In this webpage, we can explore demographic trends of the 1988 Chilean Referendum Voting intentions. On click, the bars of the charts modify each other to generate a better understanding of who and why people had certain voting intentions. These trends can be examined by Gender, Region of the country, Education level, Income and Age. 
 Discussion on possible answers to the reasoning behind the voting intentions are detailed after the graphs. The sources for this context can be found at the end of the page, where bibliography is adequately linked and cited.
 
-This webpage is fully responsive, in spite of the general difficulty of responsiveness in DC charts. This problem was resolved adding a scroll through personalized CSS.
+This webpage is designed with Mobile-first design approach. This webpage is fully responsive, in spite of the general difficulty of responsiveness in DC charts. This problem was resolved adding a scroll through personalized CSS.
 
 The colour palet and font chosen are intended to mark solemnity, due to the nature of the Referendum and the historical importance of this moment.
 
@@ -33,3 +33,5 @@ The colour palet and font chosen are intended to mark solemnity, due to the natu
 
 
 ## Deployment
+
+This webpage was deployed through Github Pages. It can be found in https://mgsignorelli.github.io/cidataproject/
