@@ -33,3 +33,5 @@ The colour palet and font chosen are intended to mark solemnity, due to the natu
 
 
 ## Deployment
+
+This webpage was deployed through Github Pages. It can be found in https://mgsignorelli.github.io/cidataproject/
