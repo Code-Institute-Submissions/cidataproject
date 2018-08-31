@@ -14,7 +14,8 @@ The dataset was obtained from Vincent Arel Bundock, France. Retrieved from https
 ## Data Visualization Dashboard Features
 
 In this webpage, we can explore demographic trends of the 1988 Chilean Referendum Voting intentions. On click, the bars of the charts modify each other to generate a better understanding of who and why people had certain voting intentions. These trends can be examined by Gender, Region of the country, Education level, Income and Age. 
-Discussion on possible answers to the reasoning behind the voting intentions are detailed after the graphs. The sources for this context can be found at the end of the page, where bibliography is adequately linked and cited.
+Discussion on possible answers to the reasoning behind the voting intentions are detailed after the graphs. This discussion does not intend to be fully comprehensive, 
+                        since an in-depth analisys of the displayed data is not the objective in this opportunity. This limitation is clearly stated in the dashboard. The sources for this context can be found at the end of the page, where bibliography is adequately linked and cited.
 
 This webpage is designed with Mobile-first design approach. This webpage is fully responsive, in spite of the general difficulty of responsiveness in DC charts. This problem was resolved adding a scroll through personalized CSS.
 
