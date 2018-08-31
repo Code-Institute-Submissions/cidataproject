@@ -31,6 +31,17 @@ The colour palet and font chosen are intended to mark solemnity, due to the natu
 - Bootstrap Framework was used to organize the webpage and uniform the layout throughout. Also, the spacing utils section has been creaated from the information in https://getbootstrap.com/docs/4.1/utilities/spacing/
 - Media Queries were used to control the responsive adjustments for smallest screens of the subtitles and paragraphs.
 
+## Testing
+
+This project was tested using <a href='https://validator.w3.org/'>W3C validators</a> for HTML and CSS. 
+Javascript was tested through the built in technologies of the Google Chrome Developer Tools. 
+
+This project was tested further by utilizing the Jasmine framework. Tests can be found in jasmine-testing folder, where scriptgraph.js holds the scripts and and graphSpec.js holds the tests. 
+Initially, the first test was created with Red-Green-Refactor approach, expecting it to fail. A first simple subtraction test was written, but the results were: 'Incomplete: no specs found'. A typo in the script snippet was found and the test failed accordigly, then was fixed and the test passed. An addition test was added to corroborate code was optimal. 
+Unfortunately Jasmine testing is not suitable for my kind of charts, which was corroborated with the Tutor of this course. 
+I relied more heavily in the Google Chrome Developer Tools, through the insertion of a console.log output with a keyword such as (bing). 
+
+
 
 ## Deployment
 
