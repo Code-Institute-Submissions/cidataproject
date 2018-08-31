@@ -6,6 +6,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <title>Chile Dictatorship Referendum 1988</title>
+    
+    <!---------------------------------------------------------CSS Styleshets-->
 
     <link rel='stylesheet' href='assets/css/bootstrap.min.css' type='text/css' />
     <link rel='stylesheet' href='assets/css/dc.min.css' type='text/css' />
@@ -15,13 +17,15 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css' type='text/css' />
     <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
     <link rel='stylesheet' href='assets/css/styles.css' type='text/css' />
+
+    <!--------------------------------------------------Jasmine Testing suite-->
     
     <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.2.1/jasmine.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.2.1/jasmine-html.js"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.2.1/boot.js"></script>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.2.1/jasmine.css'/>
 
-    <!----oad Testing Scripts-->
+    <!------------------------------------------------------- Testing Scripts-->
     <script type="text/javascript" src="jasmine-testing/scripts/scriptgraph.js"></script>
     
     <!-------------load Tests-->
@@ -30,7 +34,7 @@
 </head>
 
 <body>
-    <!---------------------------------------------------------------------Navbar-->
+    <!-----------------------------------------------------------------Navbar-->
     <section>
         <nav class='navbar navbar-default navbar-fixed-top'>
             <div class='container-fluid'>
@@ -58,7 +62,7 @@
         </nav>
     </section>
 
-    <!-----------------------------------------------------------------Main Title-->
+    <!-------------------------------------------------------------Main Title-->
     <section>
         <div id='top' class='container-fluid mb-5 mt-5'>
             <div class='row'>
@@ -75,7 +79,7 @@
 
     </section>
 
-    <!----------------------------------------------------------------------Intro-->
+    <!------------------------------------------------------------------Intro-->
     <section>
         <div>
             <div class='container-fluid mt-5 mb-5'>
@@ -90,17 +94,28 @@
                             <strong>('No')</strong>
                             <a href='#section1' class='quote'>[1]</a>
                         </p>
-                        <p>It is important to remember that people contrary to the regime did not feel at liberty of expressing political opinion
-                        </p>
+                        <p>Under each graphic you will find some discussion and 
+                        context on the findings. This information will aid in the
+                        understanding of the presented data.</p>
+                        <p>This discussion does not intend to be fully comprehensive, 
+                        since an in-depth analisys of the displayed data is not 
+                        the objective in this opportunity.</p>
+                        <p>Sources are cited when needed.</p>
+                        
                     </div>
                 </div>
                 <div class='row mt-5 mb-5'>
                     <div class='col-md-8 col-md-offset-2'>
-                        <p class='lead' align='right'>Data obtained from the National survey conducted in April and May of 1988 by FLACSO
-
+                        <p class='lead' align='right'>The data was obtained from 
+                        the National survey conducted in April and May of 1988 
+                        by FLACSO
                             <small class='text-muted'>The Latin American Faculty 
                     of Social Sciences, a UNESCO initiative created in 1957</small>
                             <a href='#section2' class='quote'>[2]</a>
+                        </p>
+                        <p>It is important to remember that people contrary to 
+                        the regime did not feel at liberty of expressing 
+                        political opinion
                         </p>
                     </div>
                 </div>
@@ -108,7 +123,7 @@
         </div>
     </section>
 
-    <!----------------------------------------------------Vote Selector and Chart-->
+    <!------------------------------------------------Vote Selector and Chart-->
     <section>
         <div>
             <div id='votenav' class='col-md-8 col-md-offset-1'>
@@ -144,7 +159,7 @@
     </section>
 
 
-    <!----------------------------------------------------Gender and Region Charts-->
+    <!-----------------------------------------------Gender and Region Charts-->
     <section>
         <div id='gendernav' class='mt-5'>
             <div id='regionnav' class='col-md-8 col-md-offset-1'>
@@ -162,7 +177,7 @@
         </div>
     </section>
 
-    <!-----------------------------------------------Gender and Region discussion-->
+    <!-------------------------------------------Gender and Region discussion-->
     <section>
 
         <div class='container-fluid mt-5'>
@@ -177,7 +192,7 @@
         </div>
     </section>
 
-    <!------------------------------------------------Education and Income Charts-->
+    <!--------------------------------------------Education and Income Charts-->
     <section>
         <div id='educationnav'>
             <div id='incomenav' class='col-md-8 col-md-offset-1'>
@@ -196,7 +211,7 @@
         </div>
     </section>
 
-    <!--------------------------------------------Education and Income Discussion-->
+    <!----------------------------------------Education and Income Discussion-->
     <section class='mt-5 mb-5'>
         <div class='container-fluid'>
             <div class='row'>
@@ -227,7 +242,7 @@
         </div>
     </section>
 
-    <!------------------------------------------------------------------Age Chart-->
+    <!--------------------------------------------------------------Age Chart-->
     <section>
         <div>
             <div id='agenav' class='col-md-8 col-md-offset-1'>
@@ -243,7 +258,7 @@
         </div>
     </section>
 
-    <!-------------------------------------------------------Age Chart Discussion-->
+    <!---------------------------------------------------Age Chart Discussion-->
     <section>
         <div class='container-fluid mt-3 mb-5'>
             <div class='row'>
@@ -267,7 +282,7 @@
             </div>
         </div>
         
-    <!------------------------------------------------------------------Citations-->
+    <!--------------------------------------------------------------Citations-->
     <section>
         <div class='container'>
             <div class='row mt-5 mb-5'>
@@ -302,7 +317,7 @@
         </div>
     </section>
     
-    <!------------------------------------------------------------------Footer-->
+    <!-----------------------------------------------------------------Footer-->
 
     <section>
         <div class='footer'>
@@ -322,6 +337,8 @@
             </div>
         </div>
     </section>
+    
+    <!---------------Javascript at the end of document to improve performance-->
 
     <script type='text/javascript' src='assets/js/jquery-3.3.1.min.js'></script>
     <script type='text/javascript' src='assets/js/d3.min.js'></script>
