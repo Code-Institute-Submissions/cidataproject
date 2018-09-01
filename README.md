@@ -42,6 +42,7 @@ Initially, the first test was created with Red-Green-Refactor approach, expectin
 Unfortunately Jasmine testing is not suitable for my kind of charts, which was corroborated with the Tutor of this course. 
 I relied more heavily in the Google Chrome Developer Tools, through the insertion of a console.log output with a keyword such as (bing). 
 
+Testing of Screen sizes was executed with Browserstack (https://www.browserstack.com/). Customized Media Queries were removed and the overall result improved, therefore eliminated for the final version.
 
 
 ## Deployment
