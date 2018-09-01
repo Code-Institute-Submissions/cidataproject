@@ -191,3 +191,44 @@ describe("Region Select Changing Value", function() {
     });
   });
 });
+
+
+
+beforeAll(function (done) {
+    setTimeout(done, 2000);
+});
+
+describe("The votes section of the page", function () {
+
+    var voteSelect = $('#vote_selector select');
+    var bars = ['Abstain', 'NA', 'No', 'Undecided', 'Yes'];
+    var options = ['', 'Abstain', 'NA', 'No', 'Undecided', 'Yes'];
+
+    describe("On selecting 'Select All'", function () {
+        voteSelect.val('');
+
+        bars.forEach(function (bar) {
+            it("should see a bar under the title of " + bar, function () {
+                expect(find_bar_from_chart($('#vote rect.bar'), bar).height()).toBeGreaterThan(0);
+            });
+        });
+    });
+
+    bars.forEach(function (testBar) {
+        describe("On selecting '" + testBar + "'", function () {
+            voteSelect.val(testBar);
+
+            bars.forEach(function (bar) {
+                if (bar === testBar) {
+                    it("should see a bar under the title of " + bar, function () {
+                        expect(find_bar_from_chart($('#vote rect.bar'), bar).height()).toBeGreaterThan(0);
+                    });
+                } else {
+                    it("should not see a bar under the title of " + bar, function () {
+                        expect(find_bar_from_chart($('#vote rect.bar'), bar).height()).toBe(0);
+                    });
+                }
+            });
+        });
+    });
+});
