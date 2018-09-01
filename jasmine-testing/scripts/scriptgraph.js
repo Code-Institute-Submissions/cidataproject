@@ -5,7 +5,3 @@ function subtraction() {
 function addition() {
     return 30;
 }
-
-function show_vote_selector(ndx) {
-    return dc.pluck('vote');
-}

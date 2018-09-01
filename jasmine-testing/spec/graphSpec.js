@@ -13,12 +13,3 @@ describe("Calculator", function() {
         });
     });
 });
-
-describe("Votegraph", function() {
-    describe("vote function", function() {
-        it("should pass", function() {
-            expect(show_vote()).toBe(dc.pluck('vote'));
-        });
-    });
-});
-
