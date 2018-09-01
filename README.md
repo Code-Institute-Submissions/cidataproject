@@ -39,9 +39,6 @@ Javascript was tested through the built in technologies of the Google Chrome Dev
 
 As this webpage was designed in a Mac laptop, testing in Windows operative system were conducted. 
 
-Testing of Screen sizes in accurate responsive mode were executed with Browserstack (https://www.browserstack.com/). Customized Media Queries were removed and the overall result improved, therefore eliminated for the final version.
-
-
 This project was tested further by utilizing the Jasmine framework. Tests can be found in jasmine-testing folder, where scriptgraph.js holds the scripts and and graphSpec.js holds the tests. 
 Initially, the first test was created with Red-Green-Refactor approach, expecting it to fail. A first simple subtraction test was written, but the results were: 'Incomplete: no specs found'. A typo in the script snippet was found and the test failed accordigly, then was fixed and the test passed. An addition test was added to corroborate code was optimal. 
 Unfortunately Jasmine testing is not suitable for my kind of charts, which was corroborated with the Tutor of this course. 
