@@ -67,3 +67,4 @@ The deployed website can be found in https://mgsignorelli.github.io/cidataprojec
 ## Further Work
 
 Future challenges are the improvement of the charts to allow different information display, including the categories in the data which were left out of analisys in this occasion.
+It would be interesting to compare this Voting intentions with the results of the actual 1988 Referendum, to corroborate the accuracy of this survey.
