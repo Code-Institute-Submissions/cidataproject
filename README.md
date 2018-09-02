@@ -43,10 +43,12 @@ In this webpage, we can explore demographic trends of the 1988 Chilean Referendu
 - Javascript was tested through the built in technologies of the Google Chrome Developer Tools. 
 
 
-- This project was tested further by utilizing the Jasmine framework. Tests can be found in jasmine-testing folder, where scriptgraph.js holds the scripts and and graphSpec.js holds the tests. 
+- This project was tested further by utilizing the Jasmine framework. Tests can be found in jasmine-testing folder, where scriptgraph.js holds the scripts and and graphSpec.js holds the tests. None of the tests worked, but are kept for registry purposes.
 - The first test was created with Red-Green-Refactor approach, expecting it to fail. A first simple subtraction test was written, but the results were: 'Incomplete: no specs found'. A typo in the script snippet was found and the test failed accordigly, then was fixed and the test passed. An addition test was added to corroborate code was optimal. 
+- The following test intended to identify if the Vote Bar chart was effectively modified when selecting a vote. Then, identify if the Pie Chart was affected when a gender was selected. None of the tests executed were succesfully run and none return a result other than No specs having been found.
+
 - Jasmine testing is not generally suitable for the functions I use in this dashboard, which was corroborated with the Tutor of this course. 
-- I relied more heavily in the Google Chrome Developer Tools, through the insertion of a console.log output with a keyword such as (bing). 
+- I relied in the Google Chrome Developer Tools, through the insertion of a console.log output with a keyword such as (bing). 
 
 
 ## Deployment
