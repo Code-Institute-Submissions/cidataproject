@@ -28,9 +28,11 @@ In this webpage, we can explore demographic trends of the 1988 Chilean Referendu
 
 - On click, the bars of the charts modify each other to generate a better understanding of who had certain voting intentions. 
 - These trends can be examined by Gender, Region of the country, Education level, Income and Age. 
-- Discussion on possible answers to the reasoning behind the voting intentions are detailed after the graphs. This discussion does not intend to be fully comprehensive, since an in-depth analisys of the displayed data is not the objective in this opportunity. This limitation is clearly stated in the dashboard. 
+- Discussion on possible answers to the reasoning behind the voting intentions are detailed after the graphs. 
+- This discussion does not intend to be fully comprehensive, since an in-depth analisys of the displayed data is not the objective in this opportunity. This limitation is clearly stated in the dashboard. 
 - Sources can be found at the end of the page, where bibliography is adequately linked and cited.
-- Mobile-first design approach. This webpage is fully responsive, in spite of the general difficulty of responsiveness in DC charts. This problem was resolved adding a scroll through personalized CSS.
+- Mobile-first design approach. This webpage is fully responsive, in spite of the general difficulty of responsiveness in DC charts. This problem was resolved adding a scroll through personalized CSS. 
+- Note that the format of Jasmine testing, when active on the webpage, stretches the canvass, limiting the responsiveness of the site. Jasmine tests remain in place for submission purposes.
 - The colour palet and font chosen are intended to mark solemnity, due to the nature of the Referendum and the historical importance of this moment.
 
 
@@ -55,7 +57,8 @@ In this webpage, we can explore demographic trends of the 1988 Chilean Referendu
 - The first test was created with Red-Green-Refactor approach, expecting it to fail. A first simple subtraction test was written, but the results were: 'Incomplete: no specs found'. A typo in the script snippet was found and the test failed accordigly, then was fixed and the test passed. An addition test was added to corroborate code was optimal. 
 - The following test intended to identify if the Vote Bar chart was effectively modified when selecting a vote. Then, identify if the Pie Chart was affected when a gender was selected. None of the tests executed were succesfully run and none return a result other than No specs having been found.
 
-- Jasmine testing is not generally suitable for the functions I use in this dashboard, which was corroborated with the Tutor of this course. 
+- Jasmine testing is not generally suitable for the functions I use in this dashboard, which was corroborated with the Tutor of this course.
+- Note that the format of Jasmine testing, when active on the webpage, stretches the canvass, limiting the responsiveness of the site.
 - I relied in the Google Chrome Developer Tools, through the insertion of a console.log output with a keyword such as (bing). 
 
 
