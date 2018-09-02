@@ -7,18 +7,26 @@
 
 #### This is the second Milestone Project, the Interactive Frontend Development Unit, for Code Institute's Full Stack Web Developer Course.
 
-The objective of this project is to design and execute a Responsive, Interactive, User Design Centered webpage through the use of Javascript logic. The chosen format was a Data Visualization Dashboard.
+The objective of this project is to design and execute a Responsive, Interactive, User Design Centered webpage using Javascript logic. The chosen format was a Data Visualization Dashboard.
 
 For this project, we will generate a visual representation of the Intentions of Vote for the 1988 Referendum in Chile, in which the country decided if the Dictator should stay (Yes) or go (No). 
 
 The dataset was obtained from Vincent Arel Bundock, France. Retrieved from https://vincentarelbundock.github.io/Rdatasets/datasets.html. 
+
+The data was conveniently separated in categories, which were Region, Population of City or Town, Gender, Age, Education, Income, Support of the Status Quo and Vote. 
+
+From the data, demographic factos such as Age, Gender, Income and Education were explored to comprehend the Voting trends. 
+
+Items of Population and Support of the Status Quo were not utilized because of the difficulty of working with their format and altering said format. 
+
+The correlation between the Support of the Status Quo and a Yes vote is direct. The population aspect is reflected in the Region charts.
 
 
 ## Data Visualization Dashboard Features
 
 In this webpage, we can explore demographic trends of the 1988 Chilean Referendum Voting intentions. 
 
-- On click, the bars of the charts modify each other to generate a better understanding of who and why people had certain voting intentions. 
+- On click, the bars of the charts modify each other to generate a better understanding of who had certain voting intentions. 
 - These trends can be examined by Gender, Region of the country, Education level, Income and Age. 
 - Discussion on possible answers to the reasoning behind the voting intentions are detailed after the graphs. This discussion does not intend to be fully comprehensive, since an in-depth analisys of the displayed data is not the objective in this opportunity. This limitation is clearly stated in the dashboard. 
 - Sources can be found at the end of the page, where bibliography is adequately linked and cited.
