@@ -1,6 +1,7 @@
 # Data Dashboard: Interactive Frontend Development
 
 ## Voting intentions for the 1988 Chilean Referendum.
+https://mgsignorelli.github.io/cidataproject/
 
 
 ### Introduction
@@ -57,4 +58,12 @@ In this webpage, we can explore demographic trends of the 1988 Chilean Referendu
 
 ## Deployment
 
-This webpage was deployed through Github Pages. It can be found in https://mgsignorelli.github.io/cidataproject/
+This webpage was deployed through Github Pages. 
+
+This process greatly facilitated by GitHub. In the Repository Settings, a Repository can be chosen to serve the project deployment in just one click. 
+
+The deployed website can be found in https://mgsignorelli.github.io/cidataproject/
+
+## Further Work
+
+Future challenges are the improvement of the charts to allow different information display, including the categories in the data which were left out of analisys in this occasion.
